@@ -194,7 +194,7 @@ p {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 100; /*bigger then navigation - needs to be before navigation*/
   position: fixed;
   right: 25px;
   top: 30px;
